@@ -1,5 +1,3 @@
-version: "3.3"
-
 services:
 
   memos:
@@ -10,5 +8,5 @@ services:
     init: true
     volumes:
       - ./memos/:/var/opt/memos
-    restart: unless-stopped
-    
+    restart: unless-stopped   
+
